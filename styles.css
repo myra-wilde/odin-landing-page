@@ -1,6 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: Roboto;
 }
 
 .container {
@@ -14,23 +15,30 @@ body {
 }
 
 .navbar {
+    padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-li {
+ul {
     list-style-type: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+li :hover {
+    color: #ffffff;
+    border-bottom: 1px dotted #ffffff;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-a :hover {
-    color: #ffffff;
-    border-bottom: 1px dotted #ffffff;
 }
 
 .headcontent {
@@ -46,12 +54,35 @@ a :hover {
 }
 
 .content {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
 
+.quote {
+    padding: 20px;
+    margin: 0px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-box {
+    padding: 30px;
+    background-color: #3882F6;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
+    padding: 16px;
     background-color: #1F2937;
     color: #ffffff;
     display: flex;
-    align-content: center;
+    margin: 0px;
+    justify-content: center;
 }
