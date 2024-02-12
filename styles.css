@@ -1,7 +1,7 @@
 body {
     padding: 0px;
     margin: 0px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -9,7 +9,8 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header , 
+.headcontent {
     background-color: #1F2937;
     color: #ffffff;
 }
@@ -50,20 +51,43 @@ a {
     color: #F9FAF8;
     display: flex;
     margin-right: auto;
-    gap: 16px;
     margin-left: 200px;
 }
 
 .headcontent {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
+.headcontent h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 .headcontent-left {
-
+    flex: 1;
 }
 
 .headcontent-right {
+    flex:1;
+    align-content: center;
+    justify-content: center;
+}
 
+.placeholder-img {
+    background-color: grey;
+    width: 250px;
+    height: 150px;
+    align-content: center;
+    margin: 15px;
 }
 
 .content {
