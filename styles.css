@@ -122,8 +122,8 @@ a {
     padding-top: 100px;
     padding-bottom: 100px;
     margin: 0px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
     font-size: 36px;
     font-style: italic;
     color: #000000;
@@ -142,12 +142,41 @@ a {
 }
 
 /* Call to action Box */
+.sign-up-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 .sign-up-box {
-    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 100%;
+    padding: 30px 80px 30px 80px;
     background-color: #3882F6;
     color: #ffffff;
     display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    border: none;
     justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.sign-up-box h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.sign-up-left {
+    flex: 4;
+}
+
+.sign-up-right {
+    flex: 1;
 }
 
 /* Sign-up and call-to-action button */
