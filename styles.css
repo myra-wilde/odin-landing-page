@@ -22,6 +22,11 @@ body {
     justify-content: space-between;
 }
 
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -41,6 +46,10 @@ ul :hover {
     transform: scale(1.2);
 }
 
+li :hover {
+    border-bottom: 1px solid #ffffff;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -56,6 +65,8 @@ a {
 
 .headcontent {
     padding: 16px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -64,6 +75,7 @@ a {
     margin-right: 200px;
     font-size: 18px;
     color: #E5E7EB;
+    gap: 20px;
 }
 
 .headcontent h1{
@@ -72,14 +84,13 @@ a {
     color: #F9FAF8;
 }
 
-.headcontent-left {
+.headcontent-left,
+.headcontent-right {
     flex: 1;
 }
 
 .headcontent-right {
-    flex:1;
-    align-content: center;
-    justify-content: center;
+    background-color: grey;
 }
 
 .placeholder-img {
