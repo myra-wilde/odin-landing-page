@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Container Boxes */
 .container {
     display: flex;
     flex-direction: column;
@@ -15,16 +16,12 @@ body {
     color: #ffffff;
 }
 
+/* Navbar */
 .navbar {
     padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-h1 {
-    padding: 0px;
-    margin: 0px;
 }
 
 ul {
@@ -63,6 +60,7 @@ a {
     margin-left: 200px;
 }
 
+/* Hero box */
 .headcontent {
     padding: 16px;
     padding-top: 100px;
@@ -82,6 +80,8 @@ a {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
 }
 
 .headcontent-left,
@@ -101,12 +101,14 @@ a {
     margin: 15px;
 }
 
+/* Some random information Box */
 .content {
     padding: 16px;
     display: flex;
     justify-content: center;
 }
 
+/* Quote Box */
 .quote {
     padding: 20px;
     margin: 0px;
@@ -118,6 +120,7 @@ a {
     justify-content: center;
 }
 
+/* Call to action Box */
 .sign-up-box {
     padding: 30px;
     background-color: #3882F6;
@@ -126,6 +129,7 @@ a {
     justify-content: center;
 }
 
+/* Sign-up and call-to-action button */
 button {
     background-color: #3882F6;
     padding: 8px;
@@ -145,6 +149,7 @@ button:hover {
     border: 1px solid #ffffff;
 }
 
+/* Footer */
 .footer {
     padding: 16px;
     background-color: #1F2937;
